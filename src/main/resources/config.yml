@@ -1,0 +1,74 @@
+#HP cơ bản của Rồng
+basedragonHealth: 650
+#Chỉnh scale máu theo lượng người chơi đang online
+dragonHealthScales: true
+#Nếu bật scale ở trên, mỗi một người chơi online sẽ khiến rồng +100hp (nhu ở dưới)
+scalingdragonHealth: 100
+
+#"none" represents not glowing; "random" is also optional
+#enable color: AQUA,BLACK,BLUE,DARK_AQUA,DARK_BLUE,DARK_GRAY,DARK_GREEN,DARK_PURPLE,DARK_RED,GOLD,GRAY,GREEN,LIGHT_PURPLE,RED,WHITE,YELLOW
+glow_color: "NONE"
+
+#Rồng có tránh được vụ nổ khi bị trúng một hit không?
+dragonAvoidsExplosions: true
+#Tên của Rồng
+dragonName: Ender Dragon
+#Thông báo chiêu thức Rồng sẽ sử dụng trên chat.
+dragonAttacksAnnounced: false
+#Rồng có trở nên điên loạn nếu spawn Rồng trong lúc có hiệu ứng BadOmen?
+dragonCanBecomeEnraged: true
+
+#Rồng có thể khạc lửa không?
+dragonCanFireBreath: true
+#Rồng có tạo tiếng gầm khi khạc lửa không?
+dragonCanFireBreathSounds: true
+#Thời gian khạc lửa tối đa. (ticks: 20tick = 1s)
+dragonFireBreathDurationUpper: 140
+#Thời gian khạc lửa tối thiểu. (ticks: 20tick = 1s)
+dragonFireBreathDurationLower: 40
+
+#Chế độ cải thiện hiệu năng (khuyến khích bật nếu server yếu)
+performanceMode: true
+
+#Rồng có thể cạp player lên không trung không?
+dragonCanPickUp: true
+#Tầng suất cạp (10tick)
+dragonPickUpChance: 10
+
+#Rồng có thể gầm lên để hất tung kẻ thù không?
+dragonCanRoar: true
+#Tầng suất gầm (10tick)
+dragonRoarChance: 10
+
+#Rồng có thể tạo ra hàng loạt Quả cầu lửa rồng không?
+dragonCanFireball: true
+#Rồng có thể tạo ra đạn shulker không?
+dragonCanSpawnShulkerBullets: true
+#Rồng có thể tạo ra tia sét xung quanh khu vực không?
+dragonCanSpawnLightning: true
+#Rồng có thể biến Endermen thành kẻ thù của người chơi không?
+dragonCanRallyEndermen: true
+#Rồng có thể tạo ra một pha lê End để sửa chữa những pha lê đã bị phá hủy khác không?
+dragonCanSpawnCrystal: true
+#Tỉ lệ respawn EndCrystal (5%)
+dragonSpawnCrystalChance: 5
+#Mỗi lần respawn sẽ spawn tối đa bao nhiêu End Crystal?
+maxEndCrystalPerSpawn: 2
+#Mỗi lần respawn sẽ spawn tối đa bao nhiêu End Crystal trong trạng thái Ominous?
+maxEndCrystalPerSpawnOminous: 5
+
+#Bật tính năng custom loot sau khi hạ rồng không?
+dragonCreatesLoot: true
+#Rồng sẽ phá hủy rương loot nếu hồi sinh?
+dragonRespawnDestroysLoot: true
+
+#Có nên hiển thị bảng xếp hạng cho những người chơi tham gia trận chiến Ender Dragon không?
+shouldDisplayLeaderboard: false
+
+messages:
+  prefix: "&8[&4NED&8]"
+  no_permission: "&cBạn không có quyền thực hiện câu lệnh này."
+  already_add: "&cThế giới %world% đã được thêm trước đó rồi."
+  successfully_add: "&cThế giới %world% đã được thêm thành công."
+  successfully_remove: "&cThế giới %world% đã được loại bỏ thành công."
+  reload: "&aTải lại cấu hình thành công."

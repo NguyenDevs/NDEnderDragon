@@ -1,0 +1,11 @@
+name: NDEnderDragon
+version: '1.0.0'
+main: com.github.nguyendevs.ND_EnderDragon.NDEnderDragon
+api-version: '1.21'
+author: NguyenDevs
+description: Cho phép tùy chỉnh Rồng Ender trong The End
+commands:
+  nd:
+    description: Lệnh chính của plugin.
+    permission: nd.admin
+    aliases: [nguyendevs]
