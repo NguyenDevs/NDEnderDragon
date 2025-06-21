@@ -287,7 +287,7 @@ public class DragonLoot implements Listener {
 
             AttributeModifier speedModifier = new AttributeModifier(CROWN_SPEED_KEY, 0.015, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.HEAD);
             AttributeModifier healthModifier = new AttributeModifier(CROWN_HEALTH_KEY, 2.0, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.HEAD);
-            AttributeModifier armorModifier = new AttributeModifier(CROWN_ARMOR_KEY, 3.0, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.HEAD);
+            AttributeModifier armorModifier = new AttributeModifier(CROWN_ARMOR_KEY, 10.0, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.HEAD);
             AttributeModifier toughnessModifier = new AttributeModifier(CROWN_TOUGHNESS_KEY, 3.0, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.HEAD);
             AttributeModifier attackSpeedModifier = new AttributeModifier(CROWN_ATTACK_SPEED_KEY, 0.25, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.HEAD);
 
@@ -316,7 +316,7 @@ public class DragonLoot implements Listener {
 
             AttributeModifier speedModifier = new AttributeModifier(CHESTPLATE_SPEED_KEY, 0.015, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.CHEST);
             AttributeModifier healthModifier = new AttributeModifier(CHESTPLATE_HEALTH_KEY, 2.0, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.CHEST);
-            AttributeModifier armorModifier = new AttributeModifier(CHESTPLATE_ARMOR_KEY, 8.0, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.CHEST);
+            AttributeModifier armorModifier = new AttributeModifier(CHESTPLATE_ARMOR_KEY, 10.0, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.CHEST);
             AttributeModifier toughnessModifier = new AttributeModifier(CHESTPLATE_TOUGHNESS_KEY, 3.0, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.CHEST);
             AttributeModifier attackSpeedModifier = new AttributeModifier(CHESTPLATE_ATTACK_SPEED_KEY, 0.25, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.CHEST);
 
@@ -345,7 +345,7 @@ public class DragonLoot implements Listener {
 
             AttributeModifier speedModifier = new AttributeModifier(LEGGINGS_SPEED_KEY, 0.015, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.LEGS);
             AttributeModifier healthModifier = new AttributeModifier(LEGGINGS_HEALTH_KEY, 2.0, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.LEGS);
-            AttributeModifier armorModifier = new AttributeModifier(LEGGINGS_ARMOR_KEY, 6.0, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.LEGS);
+            AttributeModifier armorModifier = new AttributeModifier(LEGGINGS_ARMOR_KEY, 10.0, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.LEGS);
             AttributeModifier toughnessModifier = new AttributeModifier(LEGGINGS_TOUGHNESS_KEY, 3.0, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.LEGS);
             AttributeModifier attackSpeedModifier = new AttributeModifier(LEGGINGS_ATTACK_SPEED_KEY, 0.25, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.LEGS);
 
@@ -374,7 +374,7 @@ public class DragonLoot implements Listener {
 
             AttributeModifier speedModifier = new AttributeModifier(BOOTS_SPEED_KEY, 0.015, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.FEET);
             AttributeModifier healthModifier = new AttributeModifier(BOOTS_HEALTH_KEY, 2.0, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.FEET);
-            AttributeModifier armorModifier = new AttributeModifier(BOOTS_ARMOR_KEY, 3.0, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.FEET);
+            AttributeModifier armorModifier = new AttributeModifier(BOOTS_ARMOR_KEY, 10.0, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.FEET);
             AttributeModifier toughnessModifier = new AttributeModifier(BOOTS_TOUGHNESS_KEY, 3.0, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.FEET);
             AttributeModifier attackSpeedModifier = new AttributeModifier(BOOTS_ATTACK_SPEED_KEY, 0.25, AttributeModifier.Operation.ADD_NUMBER, EquipmentSlotGroup.FEET);
 

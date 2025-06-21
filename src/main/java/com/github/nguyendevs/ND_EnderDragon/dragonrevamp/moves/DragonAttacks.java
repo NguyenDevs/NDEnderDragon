@@ -152,7 +152,7 @@ public class DragonAttacks implements Listener {
             int chance = NDEnderDragon.ndenderdragon.getConfig().getInt("dragonSpawnCrystalChance");
 
             // Tạo số ngẫu nhiên từ 1 đến 100
-            int randomChance = GeneralMethods.generateInt(100, 1); // Giả sử GeneralMethods.generateInt(max, min) có sẵn
+            int randomChance = GeneralMethods.generateInt(100, 1); //GeneralMethods.generateInt(max, min) có sẵn
 
             // Chỉ chạy logic nếu randomChance <= chance
             if (randomChance <= chance) {
